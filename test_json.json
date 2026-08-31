@@ -1,0 +1,52 @@
+{
+  "employees": [
+    {
+      "id": 101,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1-555-0198",
+      "hireDate": "2022-03-15",
+      "jobDetails": {
+        "title": "Senior Software Engineer",
+        "department": "Engineering",
+        "salary": 95000,
+        "managerId": 501
+      },
+      "skills": ["JavaScript", "Python", "Docker", "SQL"],
+      "isActive": true
+    },
+    {
+      "id": 102,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1-555-0143",
+      "hireDate": "2021-08-22",
+      "jobDetails": {
+        "title": "Product Manager",
+        "department": "Product",
+        "salary": 105000,
+        "managerId": 501
+      },
+      "skills": ["Agile", "Scrum", "Product Roadmap", "Jira"],
+      "isActive": true
+    },
+    {
+      "id": 103,
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "email": "michael.brown@example.com",
+      "phone": "+1-555-0177",
+      "hireDate": "2024-01-10",
+      "jobDetails": {
+        "title": "QA Analyst",
+        "department": "Engineering",
+        "salary": 70000,
+        "managerId": 102
+      },
+      "skills": ["Selenium", "Postman", "Cypress", "Automated Testing"],
+      "isActive": false
+    }
+  ]
+}
